@@ -1,0 +1,48 @@
+    h1 {
+        border: black solid 1px;
+        padding: 20px;
+        margin: 30px; 
+        /*padding: 10px 20px 30px 40px;*/
+        padding-top: 10px;
+        padding-bottom: 20px;
+        padding-left: 20px;
+        padding-right: 40px;
+    }
+
+    /* applies to all h1, h2 and h3 */
+    /* if h1 p{}, applies to all p inside h1 */
+    h1, h2, h3 {
+        font-family: arial, helvetica, sans-serif;
+        color: rgb(158, 24, 24);
+
+    } 
+
+    h2 {
+        font-size: 36px;
+        font-weight: normal;
+        color:rgb(20, 57, 126);
+        background-color: darkgoldenrod;
+    }
+
+    /* # for id, . for class */
+    .three-d {
+        background-color: darkcyan;
+        margin: 5px 10px 15px 20px;
+        border: black 10px outset;
+    }
+
+    /* all three-d classes only for h1 tags */
+    h1.three-d {
+        background-color: rgb(83, 0, 139);
+        margin: 5px 10px 15px 20px;
+        border: black 10px inset;
+    }
+
+    p.quotation {
+        font-style: italic;
+    }
+
+    /* all em tags with class quotations in p tags */
+    p.quotation em {
+        font-style: normal;
+    }
