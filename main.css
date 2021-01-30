@@ -7,6 +7,8 @@
         padding-bottom: 20px;
         padding-left: 20px;
         padding-right: 40px;
+        text-align: center;
+        /* justify makes everything aligned neatly in a box */
     }
 
     /* applies to all h1, h2 and h3 */
@@ -20,6 +22,7 @@
     h2 {
         font-size: 36px;
         font-weight: normal;
+        font-style: unset;
         color:rgb(20, 57, 126);
         background-color: darkgoldenrod;
     }
@@ -29,6 +32,7 @@
         background-color: darkcyan;
         margin: 5px 10px 15px 20px;
         border: black 10px outset;
+        
     }
 
     /* all three-d classes only for h1 tags */
@@ -36,13 +40,32 @@
         background-color: rgb(83, 0, 139);
         margin: 5px 10px 15px 20px;
         border: black 10px inset;
+        letter-spacing: 0.2em;
+        text-shadow: -10px 10px black;
+        /* use em instead of px if not major changes when font size changes */
+
     }
 
     p.quotation {
         font-style: italic;
+        font-stretch:expanded;
     }
 
     /* all em tags with class quotations in p tags */
     p.quotation em {
         font-style: normal;
     }
+
+    p img {
+        vertical-align: top;
+    }
+    .BigFirstLetter::first-letter {
+        font-size: xx-large;
+    }
+
+    .BigFirstLetter:hover {
+        color: red;
+    }
+    /* focus is only for entry elements */
+
+    
