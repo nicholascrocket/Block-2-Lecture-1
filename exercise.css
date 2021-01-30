@@ -10,3 +10,19 @@ h2 {
     border: #805b15 10px inset;
 }
 
+h1 {
+    text-shadow:-3px 3px #774F06;
+}
+
+a {
+    color: #ffffff;
+}
+
+h4 {
+    color: #805b15;
+}
+
+body {
+    margin-left: 20px;
+    margin-right: 20px;
+}
