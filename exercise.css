@@ -1,0 +1,12 @@
+body {
+    background-color: #ffe2aa;
+}
+
+h1, h2 {
+    color: #805b15;
+}
+
+h2 {
+    border: #805b15 10px inset;
+}
+
