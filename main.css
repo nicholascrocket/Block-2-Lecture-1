@@ -5,5 +5,18 @@
     }
     h1, h2, h3{
         font-family: arial, helvetica, sans-serif;
-        color: yellow;
+        color: rgb(158, 24, 24);
+        background-color: darkcyan;
+        /*padding: 10px 20px 30px 40px;*/
+        padding-top: 10px;
+        padding-bottom: 20px;
+        padding-right: 20px;
+        padding right: 40px;
     } 
+
+    h2{
+        font-size: 36px;
+        font-weight: normal;
+        color:rgb(20, 57, 126);
+        background-color: darkgoldenrod;
+    }
